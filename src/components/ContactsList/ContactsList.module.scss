@@ -1,0 +1,14 @@
+@use "../../utils/scss/index.scss" as *;
+
+.title {
+  margin-bottom: 20px;
+}
+
+.contacts {
+  @include min-width(401px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 20px;
+  }
+}

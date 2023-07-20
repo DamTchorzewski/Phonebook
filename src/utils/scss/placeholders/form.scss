@@ -1,0 +1,81 @@
+@use "../mixins.scss" as *;
+
+%formTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+%form {
+  width: 370px;
+  background-color: var(--color-bg-sec);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: 15px;
+
+  @include max-width(470px) {
+    width: 300px;
+  }
+}
+
+%label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+%input {
+  width: 200px;
+  background-color: var(--color-bg-third);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: 5px;
+  padding-left: 8px;
+}
+
+%passwordInput {
+  padding-right: 35px;
+}
+
+%fieldName {
+  font-weight: var(--font-weight);
+  margin-left: 4px;
+}
+
+%passwordBtn {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 30px;
+  left: 172px;
+}
+
+%passwordIcon {
+  width: 20px;
+  height: 20px;
+  color: var(--color-text-main);
+}
+
+%authPendingIcon {
+  width: 20px;
+  height: 20px;
+  animation: spin 800ms linear infinite;
+  @include animation-spin;
+}
+
+%formInfo {
+  width: 300px;
+
+  &:first-of-type {
+    margin-bottom: 10px;
+  }
+
+  & span {
+    padding-left: 11px;
+  }
+}

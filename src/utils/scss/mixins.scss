@@ -1,0 +1,22 @@
+@mixin max-width($bp) {
+  @media screen and (max-width: $bp) {
+    @content;
+  }
+}
+
+@mixin min-width($bp) {
+  @media screen and (min-width: $bp) {
+    @content;
+  }
+}
+
+@mixin animation-spin {
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@use "../../utils/scss/index.scss" as *;
+
+.section {
+  @extend %section;
+}
+
+.formTitle {
+  @extend %formTitle;
+}
+
+.contactForm {
+  @extend %form;
+}
+
+.label {
+  @extend %label;
+}
+
+.input {
+  @extend %input;
+}
+
+.fieldName {
+  @extend %fieldName;
+}
+
+.submitBtn {
+  @extend %btn;
+  width: 105px;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+.formInfo {
+  @extend %formInfo;
+}

@@ -1,0 +1,43 @@
+@use "../../utils/scss/index.scss" as *;
+
+.userMenu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  @include max-width(768px) {
+    align-items: end;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+.userName {
+  font-weight: var(--font-weight);
+
+  @include max-width(400px) {
+    width: 115px;
+    height: 19px;
+    text-align: end;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    white-space: nowrap;
+  }
+}
+
+.logoutBtn {
+  @extend %btn;
+  width: 26px;
+  height: 26px;
+}
+
+.logoutIcon {
+  width: 18px;
+  height: 18px;
+}
+
+.authPendingIcon {
+  @extend %authPendingIcon;
+  width: 18px;
+  height: 18px;
+}

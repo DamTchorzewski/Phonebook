@@ -1,0 +1,52 @@
+@use "../../utils/scss/index.scss" as *;
+
+.section {
+  @extend %section;
+}
+
+.formTitle {
+  @extend %formTitle;
+}
+
+.loginForm {
+  @extend %form;
+}
+
+.label {
+  @extend %label;
+}
+
+.input {
+  @extend %input;
+}
+
+.passwordInput {
+  @extend %passwordInput;
+}
+
+.fieldName {
+  @extend %fieldName;
+}
+
+.submitBtn {
+  @extend %btn;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+.passwordBtn {
+  @extend %passwordBtn;
+  top: 29px;
+}
+
+.passwordIcon {
+  @extend %passwordIcon;
+}
+
+.authPendingIcon {
+  @extend %authPendingIcon;
+}
+
+.formInfo {
+  @extend %formInfo;
+}

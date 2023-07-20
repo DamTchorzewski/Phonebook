@@ -1,0 +1,9 @@
+@use "../../utils/scss/index.scss" as *;
+
+.authNavList {
+  @extend %navList;
+}
+
+.authNavLink {
+  @extend %navLink;
+}
