@@ -6,6 +6,7 @@ import { store, persistor } from "./redux/store";
 import ReactDOM from "react-dom/client";
 import App from "./components/App";
 import Loader from "./components/Loader/Loader";
+import 'modern-normalize';
 import "./main.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
