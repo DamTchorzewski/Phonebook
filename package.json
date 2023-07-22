@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://damtchorzewski.github.io/goit-react-hw-08-phonebook/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
