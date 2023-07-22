@@ -1,7 +1,9 @@
 @use "../../utils/scss/index.scss" as *;
 
 .title {
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  
 }
 
 .contacts {

@@ -14,6 +14,8 @@ const Filter = () => {
 
   return (
     <>
+      <section className={scss.section}>
+      <div>
       <p className={scss.text}>Find contacts by name</p>
       <input
         className={scss.filter}
@@ -21,7 +23,9 @@ const Filter = () => {
         name="filter"
         value={filter}
         onChange={handleChange}
-      />
+          />
+        </div>
+        </section>
     </>
   );
 };
