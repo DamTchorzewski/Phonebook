@@ -1,7 +1,7 @@
 {
   "name": "goit-react-hw-08-phonebook",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "homepage": "https://damtchorzewski.github.io/goit-react-hw-08-phonebook/",
   "scripts": {
