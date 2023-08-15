@@ -8,6 +8,7 @@ import App from "./components/App";
 import Loader from "./components/Loader/Loader";
 import "./main.scss";
 
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Provider store={store}>
