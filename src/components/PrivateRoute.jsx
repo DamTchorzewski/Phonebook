@@ -10,7 +10,7 @@ const PrivateRoute = ({ redirectTo = "/", component: Component }) => {
 };
 
 PrivateRoute.propTypes = {
-  redirectTo: PropTypes.string,
+  redirectTo: PropTypes.string.isRequired,
   component: PropTypes.node.isRequired,
 };
 
